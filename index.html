@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: hsl(212, 45%, 89%);
+
+    }
+
+    .container-qr-component {
+      width: 320px;
+      padding: 15px;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 10px;
+      box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .qr-text {
+      padding: 22px 19px;
+      text-align: center;
+    }
+
+    .qr-text h1 {
+      font-size: 1.2rem;
+      margin-bottom: 14px;
+      color: hsl(218, 44%, 22%);
+    }
+
+    .qr-text p {
+      font-size: 15px;
+      color: hsl(216, 15%, 48%);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #333;
+      padding: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="container-qr-component">
+      <img src="images/image-qr-code.png" alt="QR of Frontend Mentor">
+      <div class="qr-text">
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+    </div>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.linkedin.com/in/e-valdivia/" target="_blank">Abel Valdivia</a>.
+  </footer>
+</body>
+
+</html>
